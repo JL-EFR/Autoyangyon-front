@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "105969728920",
+    "project_id": "notional-plasma-287115",
+    "storage_bucket": "notional-plasma-287115.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105969728920:android:c9ed2d82faba8e07b87fed",
+        "android_client_info": {
+          "package_name": "com.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANlVGWvky_yaGMdtyaUycfPDgEUrfD5hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

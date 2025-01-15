@@ -5,9 +5,22 @@
       "bundler": "metro"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-camera",
+      ["@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.22519010838-gfa6v3ms70qommfjb3fqas4i6ijm2mac.apps.googleusercontent.com"
+        }
+      ]
+      
     ],
     "name": "autofront",
-    "slug": "autofront"
+    "slug": "autofront",
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA"
+      ],
+      "package": "com.anonymous.autofront"
+    }
   }
 }
